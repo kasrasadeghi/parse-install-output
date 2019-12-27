@@ -1,0 +1,12 @@
+the result of this should be to uninstall one project from the output of the make install
+
+specifically for ogre-1.9.1 on my machine, it should remove
+/usr/local/include/OGRE
+/usr/local/lib/*Ogre*
+/usr/local/lib/pkgconfig
+/usr/local/lib/OGRE
+(basically /usr/local/lib)
+/usr/local/share/OGRE
+/usr/local/bin/OgreMeshUpgrader
+/usr/local/bin/OgreXMLConverter
+/usr/local/bin/SampleBrowser
